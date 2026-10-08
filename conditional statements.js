@@ -94,3 +94,16 @@ if (num6 >= num7 && num6 >= num8) {
 } else {
     console.log("Maximum number is: " + num8);
 }       
+
+
+//MINIMUM OF 3 NUMBERS
+let num6 = 10;
+let num7 = 20;
+let num8 = 15;
+if (num6 <= num7 && num6 <= num8) {
+    console.log("MINIMUM number is: " + num6);
+} else if (num7 <= num6 && num7 <= num8) {
+    console.log("MINIMUM number is: " + num7);
+} else {
+    console.log("MINIMUM number is: " + num8);
+}   
